@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sushi</title>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="navbar" id="navbar">
+		<div class="link">
+			<a href="#home" onclick="showHome()">HOME</a>
+			<a href="#reviews" onclick="showReviews()">REVIEWS</a>
+			<a href="#table" onclick="showTable()">BOOK A TABLE</a>
+			<a href="javascript:void(0);" class="icon" onclick="HideNavbar()"><i class="fa fa-bars"></i></a>
+		</div>
+		<a href="#home" onclick="showHome()"><img src="images/logo1.png"></a>
+	</div>
+	<div class="home" id="home">
+		<img src="images/home/bg1.png" alt="bg" class="background">
+		<div class="trending">
+			<div>
+				<a href="#info" onclick="showTable()"><img src="images/home/SushiGo!1.png"></a>
+			</div>
+			<div>
+				<a href="#info" onclick="showTable()"><img src="images/home/SushiHiro1.png"></a>
+			</div>
+		</div>
+		<div class="trending2">
+			<div>
+				<a href="#info" onclick="showTable()"><img src="images/home/Kintaro1.png"></a>
+			</div>
+			<div>
+				<a href="#info" onclick="showTable()"><img src="images/home/SushiMasa1.png"></a>
+			</div>
+		</div>
+		<div class="gifsushi">
+			<img src="images/home/gifsushi.gif" alt="gif">
+		</div>
+		<div class="text">
+			<p>Sushi (寿司 or 鮨) is the most famous Japanese dish outside of Japan, and one of the most popular dishes among the Japanese. In Japan, sushi is usually enjoyed on special occasions, such as a celebration.<br><br>
+
+			In past centuries, "sushi" referred to pickled fish preserved in vinegar. Nowadays sushi can be defined as a dish containing rice which has been prepared with sushi vinegar. There are different types of sushi.
+			</p>
+		</div>
+		<div class="popular">
+			<img src="images/slide_icon/gunkan.png">
+			<a href="#inari" onclick="showReviews()"><img src="images/slide_icon/inari.png"></a>
+			<a href="#nigiri" onclick="showReviews()"><img src="images/slide_icon/nigiri.png"></a>
+			<a href="#norimaki" onclick="showReviews()"><img src="images/slide_icon/norimaki.png"></a>
+			<img src="images/slide_icon/oshizushi.png">
+			<a href="#temaki" onclick="showReviews()"><img src="images/slide_icon/temaki.png"></a>
+			<img src="images/slide_icon/chirashi.png">
+		</div>
+		<div class="sliderPopular">
+			<div class="slidesBorder">
+				<div class="mySlides0 fade">
+					<img src="images/slide_icon/chirashi.png">
+				</div>
+				<div class="mySlides0 fade">
+					<img src="images/slide_icon/gunkan.png">
+				</div>
+				<div class="mySlides0 fade">
+					<img src="images/slide_icon/inari.png">
+				</div>
+				<div class="mySlides0 fade">
+					<img src="images/slide_icon/nigiri.png">
+				</div>
+				<div class="mySlides0 fade">
+					<img src="images/slide_icon/norimaki.png">
+				</div>
+				<div class="mySlides0 fade">
+					<img src="images/slide_icon/oshizushi.png">
+				</div>
+				<div class="mySlides0 fade">
+					<img src="images/slide_icon/temaki.png">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/slide_icon/gunkan.png">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/slide_icon/inari.png">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/slide_icon/nigiri.png">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/slide_icon/norimaki.png">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/slide_icon/oshizushi.png">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/slide_icon/temaki.png">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/slide_icon/chirashi.png">
+				</div>
+				<div class="mySlides1 fade">
+					<img src="images/slide_icon/inari.png">
+				</div>
+				<div class="mySlides1 fade">
+					<img src="images/slide_icon/nigiri.png">
+				</div>
+				<div class="mySlides1 fade">
+					<img src="images/slide_icon/norimaki.png">
+				</div>
+				<div class="mySlides1 fade">
+					<img src="images/slide_icon/oshizushi.png">
+				</div>
+				<div class="mySlides1 fade">
+					<img src="images/slide_icon/temaki.png">
+				</div>
+				<div class="mySlides1 fade">
+					<img src="images/slide_icon/chirashi.png">
+				</div>
+				<div class="mySlides1 fade">
+					<img src="images/slide_icon/gunkan.png">
+				</div>
+				<a class="prev" onclick="plusSlides(-1)"><i class="fa fa-caret-left"></i></a>
+	  			<a class="next" onclick="plusSlides(1)"><i class="fa fa-caret-right"></i></a>
+			</div>
+		</div>
+	</div>
+	<div class="reviews" id="reviews">
+		<img src="images/reviews/BG2.png" alt="bg" class="background">
+		<div class="mainReviews">
+			<img src="images/reviews/nigiri2.png" id="nigiri">
+			<img src="images/reviews/norimaki2.png" id="norimaki">
+			<img src="images/reviews/temaki2.png" id="temaki">
+			<img src="images/reviews/inari2.png" id="inari">
+		</div>
+		<div class="subMainReviews">
+			<img src="images/reviews/1.png">
+			<img src="images/reviews/2.png">
+			<img src="images/reviews/3.png">
+			<img src="images/reviews/4.png">
+			<img src="images/reviews/5.png">
+			<img src="images/reviews/6.png">
+			<img src="images/reviews/7.png">
+			<img src="images/reviews/8.png">
+		</div>
+	</div>
+	<div class="table" id="table">
+		<img src="images/table/BG3.png" alt="bg" class="background">
+		<div class="btn">
+			<a href="#orderbox"><img src="images/table/button.png"></a>
+		</div>
+		<div class="orderbox" id="orderbox">
+			<h1>Booking Information</h1>
+			<div class="dropdown">
+				<div class="select">
+					<h4>Restaurant</h4>
+					<select id="rest">
+					  <option>Genki Sushi</option>
+					  <option>Kintaro Sushi</option>
+					  <option>Nama Sushi</option>
+					  <option>Sushi Go!</option>
+					  <option>Sushi Hiro</option>
+					  <option>Sushi Masa</option>
+					  <option>Sushi Tei</option>
+					</select>
+				</div>
+				<div class="select">
+					<h4>Day/Month/Year</h4>
+					<input type="date" class="date">
+				</div>
+				<div class="select">
+					<h4>Guests</h4>
+					<select id="guests">
+					  <option class="optiontxt">2 Guests</option>
+					  <option>3 Guests</option>
+					  <option>4 Guests</option>
+					  <option>5 Guests</option>
+					  <option>6 Guests</option>
+					  <option>6+ Guests</option>
+					</select>
+				</div>
+				<div class="select">
+					<h4>Time</h4>
+					<select id="time">
+					  <option>Brunch</option>
+					  <option>Lunch</option>
+					  <option>Dinner</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="info" id="info">
+			<img src="images/table/a.png">
+			<img src="images/table/b.png">
+			<img src="images/table/c.png">
+			<img src="images/table/d.png">
+		</div>
+	</div>
+	<script type="text/javascript">
+		function HideNavbar() {
+		var x = document.getElementById("navbar");
+		  if (x.className === "navbar") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "navbar";
+		  }
+		}
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var slides0 = document.getElementsByClassName("mySlides0");
+		  var slides1 = document.getElementsByClassName("mySlides1");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";
+		      slides0[i].style.display = "none";
+		      slides1[i].style.display = "none";
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  slides0[slideIndex-1].style.display = "block";
+		  slides1[slideIndex-1].style.display = "block";
+		}
+		function showHome(){
+			document.getElementById('home').style.display = 'block';
+			document.getElementById('reviews').style.display = 'none';
+			document.getElementById('table').style.display = 'none';
+		}
+		function showReviews(){
+			document.getElementById('home').style.display = 'none';
+			document.getElementById('reviews').style.display = 'block';
+			document.getElementById('table').style.display = 'none';
+		}
+		function showTable(){
+			document.getElementById('home').style.display = 'none';
+			document.getElementById('reviews').style.display = 'none';
+			document.getElementById('table').style.display = 'block';
+		}
+	</script>
+</body>
+</html>
